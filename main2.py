@@ -410,7 +410,7 @@ def train(adj, features_enzyme, features_indication, features_sideeffect, featur
 
 if __name__ == "__main__":
 
-    effect_name = "C0553662_95"
+    effect_name = ""
     # ---------读取enzyme数据---------------------------------------------------------------------------
     df = pd.read_csv("./enzyme/%s.csv" % (effect_name))
     row = []
